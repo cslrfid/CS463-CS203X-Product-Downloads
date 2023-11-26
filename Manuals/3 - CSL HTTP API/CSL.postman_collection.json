@@ -1,0 +1,774 @@
+{
+	"info": {
+		"_postman_id": "05484aa0-652e-4580-9c14-bab1d0e3b738",
+		"name": "CSL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10143410"
+	},
+	"item": [
+		{
+			"name": "ForceLogout",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?command=forceLogout&username=root&password=csl",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "command",
+							"value": "forceLogout"
+						},
+						{
+							"key": "username",
+							"value": "root"
+						},
+						{
+							"key": "password",
+							"value": "csl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?command=login&username=root&password=csl",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "command",
+							"value": "login"
+						},
+						{
+							"key": "username",
+							"value": "root"
+						},
+						{
+							"key": "password",
+							"value": "csl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getReaderID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=getReaderID",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "getReaderID"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOperProfile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=getOperProfile",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "getOperProfile"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "healthCheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?command=healthCheck&username=root&password=csl",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "command",
+							"value": "healthCheck"
+						},
+						{
+							"key": "username",
+							"value": "root"
+						},
+						{
+							"key": "password",
+							"value": "csl"
+						}
+					]
+				},
+				"description": "\t"
+			},
+			"response": []
+		},
+		{
+			"name": "listServer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=listServer",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "listServer"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getTemperature",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=getTemperature&mode=current",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "getTemperature"
+						},
+						{
+							"key": "mode",
+							"value": "current"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getReaderVersion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=getReaderVersion",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "getReaderVersion"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getFlashMemory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=getFlashMemory",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "getFlashMemory"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getRAMMemory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=getRAMMemory",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "getRAMMemory"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "isOnline",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=isOnline",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "isOnline"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getNetworkConfig",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=getNetworkConfig",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "getNetworkConfig"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAccessMode",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://192.168.25.160/API?session_id=&command=getAccessMode",
+					"protocol": "https",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "getAccessMode"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "enableEvent",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=enableEvent&event_id=Default Event&enable=true",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "enableEvent"
+						},
+						{
+							"key": "event_id",
+							"value": "Default Event"
+						},
+						{
+							"key": "enable",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listEvent",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.180/API?session_id=&command=listEvent",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"180"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "listEvent"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getReaderStatus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?command=getReaderStatus&username=root&password=csl",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "command",
+							"value": "getReaderStatus"
+						},
+						{
+							"key": "username",
+							"value": "root"
+						},
+						{
+							"key": "password",
+							"value": "csl"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fm13dt160ReadTemperature",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.253/API?session_id=&command=fm13dt160ReadTemperature&linkProfile=1&antennaPort=2&transmitPower=30&dwellTime=2000&reflectedPowerThreshold=24&maskBank=Bank1&accessPassword=00000000",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"253"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "fm13dt160ReadTemperature"
+						},
+						{
+							"key": "linkProfile",
+							"value": "1"
+						},
+						{
+							"key": "antennaPort",
+							"value": "2"
+						},
+						{
+							"key": "transmitPower",
+							"value": "30"
+						},
+						{
+							"key": "dwellTime",
+							"value": "2000"
+						},
+						{
+							"key": "reflectedPowerThreshold",
+							"value": "24"
+						},
+						{
+							"key": "maskBank",
+							"value": "Bank1"
+						},
+						{
+							"key": "mask",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "accessPassword",
+							"value": "00000000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RestartSystem",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=restartSystem",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "restartSystem"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "setNetworkConfig",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=setNetworkConfig&type=ethernet&enable=true&dhcpmode=0&ip=192.168.25.160&mask=255.255.255.0&gateway=192.168.25.1",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "setNetworkConfig"
+						},
+						{
+							"key": "type",
+							"value": "ethernet"
+						},
+						{
+							"key": "enable",
+							"value": "true"
+						},
+						{
+							"key": "dhcpmode",
+							"value": "0"
+						},
+						{
+							"key": "ip",
+							"value": "192.168.25.160"
+						},
+						{
+							"key": "mask",
+							"value": "255.255.255.0"
+						},
+						{
+							"key": "gateway",
+							"value": "192.168.25.1"
+						},
+						{
+							"key": "security",
+							"value": "wpa-psk",
+							"disabled": true
+						},
+						{
+							"key": "ssid",
+							"value": "wlan123",
+							"disabled": true
+						},
+						{
+							"key": "psk",
+							"value": "123456748979",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "setReaderID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=setReaderID&reader_id=RfidReader01",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "setReaderID"
+						},
+						{
+							"key": "reader_id",
+							"value": "RfidReader01"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "setCapturePointName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=setCapturePointName&capturepoint_id=Antenna4&name=CP4",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "setCapturePointName"
+						},
+						{
+							"key": "capturepoint_id",
+							"value": "Antenna4"
+						},
+						{
+							"key": "name",
+							"value": "CP4"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
