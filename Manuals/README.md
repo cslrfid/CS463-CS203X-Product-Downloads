@@ -18,7 +18,7 @@ Under this access mode, the reader is expected to be fully controlled by the PC 
 <br><br>
 Under this access mode, you are expecting reader will be running automonously with with its built-in event engine.
 <br><br>
-For more information on the event engine, you can refer to the [user's manual](https://github.com/cslrfid/CS463-CS203X-Product-Downloads/tree/main/Manuals/1%20-%20User%20Manual) or the [following article](https://cslrfid.github.io/2020-03-26-cs463-getting-started/).
+For more information on the event engine, you can refer to the [user's manual](./1%20-%20User%20Manual/CSL-Intelligent-Fixed-Reader-User-Manual.pdf) or the [following article](https://cslrfid.github.io/2020-03-26-cs463-getting-started/).
 <br><br>
 In order to enable CSL HTTP API, you will need to go to **System** -> **Access Mode** on the web interface and select ```HTTP/XML```.
 <br><br>
