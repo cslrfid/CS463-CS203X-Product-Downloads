@@ -9,6 +9,8 @@ This is the complete demo application that demonstrates all features of the APIs
 <br><br>
 If you are starting your development from scratch, you can consider taking the demo app as your base and add new features on top.  For instance, you can use the existing inventory page for reading RFID tags.  You might just need to have an additional button on the page for triggering a hook to the WebAPI or procedure that stores the captured data.
 <br><br>
+[**CSL Unified API Documentation**](./CSLibrary-Documentation)
+<br><br>
 2. [**CSL Multi-Reader Simple Demno App**](https://github.com/cslrfid/CSL-Multireader-Simple-Demo)
 <br><br>
 This is a simple console application that illustrate the easiest way for calling the APIs on the CSLibrary.
