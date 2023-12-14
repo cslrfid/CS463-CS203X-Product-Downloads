@@ -3,6 +3,8 @@
 
 ## Contents
 
+[**Download Full Documentation**](./CS203X_CS463_C_Sharp_CSLibrary_API_Document.zip)
+
 - [ACID](#T-CSLibrary-Constants-ACID 'CSLibrary.Constants.ACID')
   - [APACS](#F-CSLibrary-Constants-ACID-APACS 'CSLibrary.Constants.ACID.APACS')
   - [APACSX](#F-CSLibrary-Constants-ACID-APACSX 'CSLibrary.Constants.ACID.APACSX')
