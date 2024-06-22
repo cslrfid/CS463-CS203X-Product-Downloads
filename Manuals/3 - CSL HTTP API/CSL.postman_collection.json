@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "05484aa0-652e-4580-9c14-bab1d0e3b738",
+		"_postman_id": "b6f776d1-4401-4757-998b-14bc3e829d4a",
 		"name": "CSL",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "10143410"
@@ -764,6 +764,69 @@
 						{
 							"key": "name",
 							"value": "CP4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "readTag",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=readTag&linkProfile=2&antennaPort=4&transmitPower=30.0&dwellTime=2000&reflectedPowerThreshold=24.0&maskBank=Bank1&mask=&accessPassword=00000000",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "readTag"
+						},
+						{
+							"key": "linkProfile",
+							"value": "2"
+						},
+						{
+							"key": "antennaPort",
+							"value": "4"
+						},
+						{
+							"key": "transmitPower",
+							"value": "30.0"
+						},
+						{
+							"key": "dwellTime",
+							"value": "2000"
+						},
+						{
+							"key": "reflectedPowerThreshold",
+							"value": "24.0"
+						},
+						{
+							"key": "maskBank",
+							"value": "Bank1"
+						},
+						{
+							"key": "mask",
+							"value": ""
+						},
+						{
+							"key": "accessPassword",
+							"value": "00000000"
 						}
 					]
 				}
