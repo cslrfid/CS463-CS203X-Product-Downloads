@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "b6f776d1-4401-4757-998b-14bc3e829d4a",
+		"_postman_id": "5e92a403-4535-4b45-9f85-8b8e31b9583b",
 		"name": "CSL",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "10143410"
@@ -827,6 +827,193 @@
 						{
 							"key": "accessPassword",
 							"value": "00000000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newTagGroup",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=newTagGroup&group_id=group_id",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "newTagGroup"
+						},
+						{
+							"key": "group_id",
+							"value": "group_id"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addTagGroupMember",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=addTagGroupMember&group_id=group_id&tag_id=EPCID",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "addTagGroupMember"
+						},
+						{
+							"key": "group_id",
+							"value": "group_id"
+						},
+						{
+							"key": "tag_id",
+							"value": "EPCID"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delTagGroupMember",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=delTagGroupMember&group_id=group_id&tag_id=EPCID",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "delTagGroupMember"
+						},
+						{
+							"key": "group_id",
+							"value": "group_id"
+						},
+						{
+							"key": "tag_id",
+							"value": "EPCID"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delTagGroupMemberAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&group_id=group_id&command=delTagGroupMemberAll",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "group_id",
+							"value": "group_id"
+						},
+						{
+							"key": "command",
+							"value": "delTagGroupMemberAll"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "importTagGroup",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.25.160/API?session_id=&command=importTagGroup&group_id=group_id&tagGroupContent=tagGroupContent",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"25",
+						"160"
+					],
+					"path": [
+						"API"
+					],
+					"query": [
+						{
+							"key": "session_id",
+							"value": ""
+						},
+						{
+							"key": "command",
+							"value": "importTagGroup"
+						},
+						{
+							"key": "group_id",
+							"value": "group_id"
+						},
+						{
+							"key": "tagGroupContent",
+							"value": "tagGroupContent"
 						}
 					]
 				}
